@@ -6,7 +6,7 @@ ServerSettings.md
 MissionSettings.md
   Mission Settings used to standardize missions across hosts. These are settings that are applied by most mission makers. If you make a change to these settings and your mission doesn't work, that's not a "Modset" problem, so make sure to properly test your missions.
   
-TSBMainProposed20200723.html
-  Proposed Modset HTML for import to the Arma 3 launcher.
+TSBMainQ3.html
+  Modset HTML for import to the Arma 3 launcher.
   
 If you have any issues, please reach out to us in the TSB-Main channel of Liru's Discord.
