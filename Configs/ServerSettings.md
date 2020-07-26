@@ -899,7 +899,7 @@ diwako_dui_enable_compass = true;
 diwako_dui_enable_compass_dir = 1;
 diwako_dui_enable_occlusion = false;
 diwako_dui_enable_occlusion_cone = 360;
-force diwako_dui_hudScaling = 1;
+diwako_dui_hudScaling = 1;
 diwako_dui_namelist = true;
 diwako_dui_namelist_bg = 0;
 diwako_dui_namelist_only_buddy_icon = false;
@@ -956,21 +956,6 @@ kka3_inj_resetdelay = 5;
 // NIArms
 force niarms_accswitch = true;
 force niarms_magSwitch = true;
-
-// TFAR - Animations
-radioAnims_cba_ads = true;
-radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
-radioAnims_cba_main = true;
-radioAnims_cba_preference_fadak = "Vest";
-radioAnims_cba_preference_Others = "Hand";
-radioAnims_cba_preference_pnr1000 = "Vest";
-radioAnims_cba_preference_PRC148 = "Hand";
-radioAnims_cba_preference_PRC152 = "Vest";
-radioAnims_cba_preference_PRC154 = "Hand";
-radioAnims_cba_preference_rf7800 = "Vest";
-radioAnims_cba_vehicles = true;
-radioAnims_cba_vestarmor = true;
-radioAnims_cba_vests = "[]";
 
 // TFAR - Clientside settings
 TFAR_default_radioVolume = 6;
@@ -1067,8 +1052,3 @@ force VCM_TURRETUNLOAD = true;
 force VCM_USECBASETTINGS = true;
 force VCM_WARNDELAY = 30;
 force VCM_WARNDIST = 0;
-
-// Vurtual's Vehicles
-force vurtual_base_fording_damage = false;
-force vurtual_m998_enableTow = true;
-force vurtual_m998_trailer_snap = 20;
