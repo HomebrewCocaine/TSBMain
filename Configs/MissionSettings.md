@@ -899,11 +899,11 @@ diwako_dui_enable_compass = true;
 diwako_dui_enable_compass_dir = 1;
 diwako_dui_enable_occlusion = false;
 diwako_dui_enable_occlusion_cone = 360;
-diwako_dui_hudScaling = 2;
+diwako_dui_hudScaling = 1;
 diwako_dui_namelist = true;
 diwako_dui_namelist_bg = 0;
 diwako_dui_namelist_only_buddy_icon = false;
-diwako_dui_namelist_size = 2.82843;
+diwako_dui_namelist_size = 1;
 diwako_dui_namelist_text_shadow = 2;
 diwako_dui_namelist_width = 215;
 diwako_dui_radar_ace_finger = true;
@@ -912,7 +912,7 @@ diwako_dui_radar_group_by_vehicle = false;
 diwako_dui_radar_icon_scale_crew = 6;
 diwako_dui_radar_leadingZeroes = false;
 diwako_dui_radar_namelist_hideWhenLeader = false;
-diwako_dui_radar_namelist_vertical_spacing = 0.5;
+diwako_dui_radar_namelist_vertical_spacing = 1;
 diwako_dui_radar_occlusion_fade_time = 10;
 diwako_dui_radar_pointer_color = [1,0.5,0,1];
 diwako_dui_radar_pointer_style = "standard";
@@ -949,21 +949,6 @@ force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 // NIArms
 force niarms_accswitch = true;
 force niarms_magSwitch = true;
-
-// TFAR - Animations
-radioAnims_cba_ads = true;
-radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
-radioAnims_cba_main = true;
-radioAnims_cba_preference_fadak = "Vest";
-radioAnims_cba_preference_Others = "Hand";
-radioAnims_cba_preference_pnr1000 = "Vest";
-radioAnims_cba_preference_PRC148 = "Hand";
-radioAnims_cba_preference_PRC152 = "Vest";
-radioAnims_cba_preference_PRC154 = "Hand";
-radioAnims_cba_preference_rf7800 = "Vest";
-radioAnims_cba_vehicles = true;
-radioAnims_cba_vestarmor = true;
-radioAnims_cba_vests = "[]";
 
 // TFAR - Clientside settings
 TFAR_default_radioVolume = 6;
@@ -1029,8 +1014,3 @@ force TFAR_Teamspeak_Channel_Name = "TaskForceRadio";
 force TFAR_Teamspeak_Channel_Password = "123";
 force tfar_terrain_interception_coefficient = 7;
 force TFAR_voiceCone = true;
-
-// Vurtual's Vehicles
-force vurtual_base_fording_damage = false;
-force vurtual_m998_enableTow = true;
-force vurtual_m998_trailer_snap = 20;
